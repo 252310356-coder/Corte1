@@ -45,4 +45,9 @@
     echo "<b>Hola</b> $apellido <i>que tal estas?</i>";
     echo "<br>";
     echo 'Hola $nombre esta es otra prueba';
+
+      //Desafio adicional
+    Const IVA = 0.16;
+    $Precio_final = $Precio_descuento + ($Precio_descuento * IVA);
+    echo "<p> Precio final con IVA (Constante): <strong> $Precio_final </strong> </p>";
     
