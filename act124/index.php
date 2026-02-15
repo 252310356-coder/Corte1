@@ -3,11 +3,19 @@
 $numero1 = 10;
 $numero2 = 20;
 // Estructura IF
+/* La estructura IF se utiliza para ejecutar un bloque de código solo si se cumple una condición específica.
+Si la condición es verdadera,
+el código dentro del bloque IF se ejecutará; de lo contrario, se omitirá.
+*/
 echo "<h2>Ejemplo con IF</h2>";
 if ($numero1 < $numero2) {
  echo "El número $numero1 es menor que $numero2";
 }
 // Estructura IF-ELSE
+/*
+La estructura IF-ELSE se utiliza para ejecutar un bloque de código si una condición es verdadera
+y otro bloque de código si la condición es falsa.
+*/
 echo "<h2>Ejemplo con IF-ELSE</h2>";
 if ($numero1 > $numero2) {
  echo "El número $numero1 es mayor que $numero2";
@@ -15,6 +23,8 @@ if ($numero1 > $numero2) {
  echo "El número $numero1 NO es mayor que $numero2";
 }
 // Estructura IF-ELSEIF-ELSE con temperatura
+/* La estructura IF-ELSEIF-ELSE se utiliza para evaluar múltiples condiciones.
+Permite ejecutar diferentes bloques de código según cuál condición se cumpla.*/
 $temperatura = 15;
 echo "<h2>Ejemplo con IF-ELSEIF-ELSE</h2>";
 if ($temperatura > 30) {
