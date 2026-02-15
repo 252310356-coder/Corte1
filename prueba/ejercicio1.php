@@ -14,7 +14,7 @@
 
     //Variable flotante
     $costo = 15.25;
-
+    
     //Variables String
     $nombre = "Otoniel";
     $apellido= "Rodriguez Moreno";
