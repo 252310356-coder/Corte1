@@ -51,7 +51,7 @@ if ($temperatura_kelvin > 373.15) {
     echo "El agua está en estado sólido ❄️";
     }
 
-    $temperatura_farenheit = 85;
+$temperatura_farenheit = 20;
     echo "<h2>Ejemplo con temperatura en Farenheit</h2>";
     if ($temperatura_farenheit > 212) {
         echo "El agua está en estado gaseoso 💨";
