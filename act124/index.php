@@ -24,4 +24,40 @@ if ($temperatura > 30) {
 } else {
  echo "Hace frío 🥶";
 }
+
+
+
+//Codigo para temperaturas bajo cero
+$temperatura = -5;
+echo "<h2>Ejemplo para temperaturas bajo cero</h2>";
+if ($temperatura < 0) {
+ echo "Estamos bajo 0 🥶";
+} 
+elseif ($temperatura >= 0 && $temperatura <= 15) {
+ echo "El clima es fresco 🌬️";
+} 
+else {
+ echo "El clima es cálido ☀️";
+}
+
+//Añadidos personales para el ejercicio
+$temperatura_kelvin = 300;
+echo "<h2>Ejemplo con temperatura en Kelvin</h2>";
+if ($temperatura_kelvin > 373.15) {
+    echo "El agua está en estado gaseoso 💨";
+    } elseif ($temperatura_kelvin >= 273.15 && $temperatura_kelvin <= 373.15) {
+    echo "El agua está en estado líquido 💧";
+    } else {
+    echo "El agua está en estado sólido ❄️";
+    }
+
+    $temperatura_farenheit = 85;
+    echo "<h2>Ejemplo con temperatura en Farenheit</h2>";
+    if ($temperatura_farenheit > 212) {
+        echo "El agua está en estado gaseoso 💨";
+        } elseif ($temperatura_farenheit >= 32 && $temperatura_farenheit <= 212) {
+        echo "El agua está en estado líquido 💧";
+        } else {
+        echo "El agua está en estado sólido ❄️";
+        }
 ?>
